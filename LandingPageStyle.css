@@ -63,34 +63,36 @@ main {
 
 .main-picture-container {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     align-content: center;
-    height: 700px;
+    height: 40rem;
 }
 
 .main-picture-container img {
-    width: 1203.99px;
-    height: 743.05px;
-    border-radius: 100px;
+    width: 75rem;
+    height: 46rem;
+    border-radius: 6.25rem;
     justify-content: center;
-    margin: 300px 0px 0px 60px;
+    margin: 18.75rem 2rem 0rem 3.75rem;
 }
 
 .image-container-1 {
     display: flex;
+    height: auto;
+    width: auto;
     justify-content: center;
     align-items: center;
     align-content: center;
     margin: 0 auto;
+    margin-top: 2rem;
 }
 
 .image-container-1 img {
-    width: 388.43px;
-    height: 342.41px;
-    border-radius: 66px;
-    margin-right: 20px;
-    margin-top: 200px;
+    width: 25rem;
+    height: 21rem;
+    border-radius: 4.1rem;
+    margin-right: 1.25rem;
+    margin-top: 12.5rem;
 }
 
 .image_container img:last-child {
@@ -292,4 +294,64 @@ main {
 
 .container-8 img {
     margin-right: 100px;
+}
+
+@media (min-width: 400px) and (max-width: 1240px) {
+    nav {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    nav ul li {
+        margin: 0.5rem;
+    }
+
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        margin-top: 5rem;
+        height: auto;
+        width: 30%;
+    }
+
+    .main-piture-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        width: 21rem;
+    }
+
+    .main-picture-container img {
+        height: 15rem;
+        width: 21rem;
+        margin: 0;
+    }
+
+    .image-container-1 {
+        height: auto;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        row-gap: 1rem;
+    }
+
+    .image-container-1 img {
+        height: 15rem;
+        width: 21rem;
+        margin: 0;
+    }
 }
