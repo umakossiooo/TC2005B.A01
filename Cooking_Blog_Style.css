@@ -42,6 +42,14 @@ html {
     align-items: center;
 }
 
+.search-bar input {
+    background-color: #D9D9D9;
+    border: none;
+    margin-right: 1rem;
+    height: 1.625rem;
+    width: 12rem;
+}
+
 li {
     font-family: 'Inter';
     font-size: 1.25rem;
@@ -50,11 +58,14 @@ li {
 }
 
 nav {
+    display: flex;
+    flex-direction: row;
     padding-right: 3.75rem;
 }
 
+
 nav ul {
-    padding: 0rem;
+    padding: 0;
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -65,7 +76,6 @@ nav li {
 }
 
 nav a {
-    display: inline-block;
     font-size: 2rem;
     height: 3rem;
     line-height: 0.106rem;
@@ -489,6 +499,10 @@ button {
         margin-right: 3rem;
     }
 
+    nav {
+        flex-direction: column;
+        margin: 2rem;
+    }
 
     nav ul {
         flex-direction: column;
@@ -498,6 +512,7 @@ button {
     nav ul li {
         margin: 0.5rem 0;
         text-align: center;
+        font-size: 2rem;
     }
 
     .search-bar {
@@ -505,10 +520,6 @@ button {
         flex-direction: row;
         align-self: center;
         align-self: center;
-    }
-
-    .search-bar li input {
-        margin-right: 1rem;
     }
 
     .child-2 {
