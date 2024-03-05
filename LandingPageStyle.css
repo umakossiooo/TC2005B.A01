@@ -406,8 +406,27 @@ main {
         justify-content: center;
     }
 
+    .container-8 img {
+        height: 2.5rem;
+        width: auto;
+    }
+
     .container-8 img:last-child {
         margin: 0;
+    }
+
+    .container-9 p {
+        font-size: 2rem;
+    }
+
+    .container-9 input {
+        width: 10rem;
+        font-size: 2rem;
+    }
+
+    .container-9 button {
+        width: 20rem;
+        font-size: 2rem;
     }
 
     .container-6 {
@@ -418,4 +437,5 @@ main {
     .container-6 ul:last-child {
         margin: 0;
     }
+
 }
